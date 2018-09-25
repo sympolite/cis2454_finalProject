@@ -1,8 +1,8 @@
 # cis2454_finalProject
-##Final Web Dev Project (Aug.-Dec. 2017)
+## Final Web Dev Project (Aug.-Dec. 2017)
 by sympolite
 
-###Original Documentation
+### Original Documentation
 Note:
 
 - Entering "C0001" as the customer ID on login will load results on every page. 
@@ -13,7 +13,7 @@ Note:
 
 - Per the documentation, there are no "database" files; all the SQL needed is in the dbQueries folder.
 
-###New Documentation (Sept. 2018)
+### New Documentation (Sept. 2018)
 This was built for my old Web Dev class in late 2017. 
 The specs were to make a website for booking a hotel, complete with an SQL database.
 Some of the code in here is very janky and buggy; I have no idea how I aced this, personally.
