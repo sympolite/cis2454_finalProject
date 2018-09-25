@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Timothy Ian Anderson
+    Cis 2454
+    Fall 2017 - Thurs. Afternoon
+    Integrated Project
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+  body {font-family: verdana;margin:20px; font-size: 14px;}
+  div.container {border: 1px solid black;
+      background-color: #f0ffff;padding:10px;width:460px;
+  }
+  p.result {color:red;font-weight:bold;}
+  h3 {color:blue;}
+  </style>
+  <script>
+        function loadDoc() {
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState === 4 && this.status == 200) {
+              document.getElementById("result").innerHTML =
+              this.responseText;
+            }
+          };
+          xhttp.open("POST", "DownloadServlet?requestType=ajax&payment", true);
+          xhttp.send();
+        }
+ </script>
+    </head>
+    <body>
+        <div class="container">
+            <h3>Coding Exercise 7</h3>
+            <p><a href = "DownloadServlet?requestType=spreadsheet">Click to clownload a spreadsheet</a></p>
+            <p><a href = "DownloadServlet?requestType=pdf">Click to clownload a PDF</a></p>
+            <p>Click this button to make an Asynchronous Request 
+            <button id="myAsyncBtn" onclick="loadDoc()"> Click Here</button>
+            </p>
+            <p class="result" id="result"></p>
+        </div>
+    </body>
+</html>
