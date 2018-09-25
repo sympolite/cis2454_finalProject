@@ -19,3 +19,5 @@ The specs were to make a website for booking a hotel, complete with an SQL datab
 Some of the code in here is very janky and buggy; I have no idea how I aced this, personally.
 
 This is only here to attest to the fact that, through blood, sweat and tears, I did it. Maybe someday I'll go back and fix this.
+
+This can be all installed in one place, and then run using a PHP and a Java server (per the spec; it was an introductory web dev course).
