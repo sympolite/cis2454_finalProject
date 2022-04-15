@@ -1,6 +1,6 @@
 # cis2454_finalProject
 ## Final Web Dev Project (Aug.-Dec. 2017)
-by sympolite
+by tianders295
 
 ### Original Documentation
 Note:
